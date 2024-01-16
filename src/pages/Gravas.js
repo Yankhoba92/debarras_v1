@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Navbar from "../components/Navbar";
 import NavbarBurger from "../components/Navbarburger";
-import Error from "../components/Errors";
+import Errors from "../components/Errors";
 
 const meta = {
   title: "",
@@ -23,7 +23,7 @@ export default function Gravas() {
           <Navbar />
           <NavbarBurger />
         </section>
-       <Errorr />
+       <Errors />
       </>
     </React.Fragment>
   );
