@@ -8,68 +8,68 @@ const NavbarBurger = () => {
               <div className='fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-coolGray-900'>
                 <nav className='relative p-6 h-full overflow-y-auto'>
                   <div className='flex flex-col justify-between h-full'>
-                    <a className='inline-block' href='#'>
+                    <Link className='inline-block' to='#'>
                       <img
                         className='h-8'
                         src='flex-ui-assets/logos/flex-ui-green.svg'
                         alt=''
                       />
-                    </a>
+                    </Link>
                     <ul className='py-6'>
                       <li>
-                        <a
+                        <Link
                           className='block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md'
-                          href='#'
+                          to='/'
                         >
-                          Product
-                        </a>
+                          ACCUEIL
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className='block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md'
-                          href='#'
+                          to='/debarras'
                         >
-                          Features
-                        </a>
+                           DEBARRAS IDF
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className='block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md'
-                          href='#'
+                          to='/nettoyage'
                         >
-                          Pricing
-                        </a>
+                          NETTOYAGE
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className='block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md'
-                          href='#'
+                          to='/gravas'
                         >
-                          Resources
-                        </a>
+                          ENLÈVEMENT DES GRAVATS
+                        </Link>
                       </li>
                     </ul>
                     <div className='flex flex-wrap'>
                       <div className='w-full mb-2'>
-                        <a
+                        <Link
                           className='inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-400 hover:text-white bg-transparent font-medium text-center rounded-md'
-                          href='#'
+                          to='/contact'
                         >
-                          Log In
-                        </a>
+                          Contact
+                        </Link>
                       </div>
                       <div className='w-full'>
-                        <a
+                        <Link
                           className='inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md'
-                          href='#'
+                          to='/devis'
                         >
-                          Sign Up
-                        </a>
+                          Devis Gratuit
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </nav>
-                <a className='navbar-close absolute top-5 p-4 right-3' href='#'>
+                <Link className='navbar-close absolute top-5 p-4 right-3' to='#'>
                   <svg
                     width={12}
                     height={12}
@@ -82,7 +82,7 @@ const NavbarBurger = () => {
                       fill='#8896AB'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
   );

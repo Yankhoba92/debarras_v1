@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className='flex justify-between p-6 px-4'>
               <div className='flex justify-between items-center w-full'>
                 <div className='w-1/2 xl:w-1/3'>
-                  <Link className='block max-w-max' href='index.html'>
+                  <Link className='block max-w-max' to='/'>
                     <img
                       className='h-8'
                       src={logo}
@@ -20,15 +20,15 @@ const Navbar = () => {
                     <li className='mr-12'>
                       <Link
                         className='text-coolGray-400 hover:text-coolGray-50 font-medium'
-                        href='index.html'
+                        to='/'
                       >
-                        Accueil
+                        ACCUEIL
                       </Link>
                     </li>
                     <li className='mr-12'>
                       <Link
                         className='text-coolGray-400 hover:text-coolGray-50 font-medium'
-                        href='#'
+                        to='/debarras'
                       >
                         DEBARRAS IDF
                       </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <li className='mr-12'>
                       <Link
                         className='text-coolGray-400 hover:text-coolGray-50 font-medium'
-                        href='#'
+                        to='/nettoyage'
                       >
                         NETTOYAGE{' '}
                       </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         className='text-coolGray-400 hover:text-coolGray-50 font-medium'
-                        href='#'
+                        to='/gravas'
                       >
                         {' '}
                         ENLÈVEMENT DES GRAVATS
@@ -56,13 +56,13 @@ const Navbar = () => {
                   <div className='hidden xl:flex items-center justify-end'>
                     <Link
                       className='inline-block py-2 px-4 mr-2 leading-5 text-coolGray-400 hover:text-coolGray-50 bg-transparent font-medium rounded-md'
-                      href='contact.html'
+                      to='/contact'
                     >
                       Contact
                     </Link>
                     <Link
                       className='inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md'
-                      href='devis.html'
+                      to='/devis'
                     >
                       Devis Gratuit
                     </Link>
