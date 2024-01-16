@@ -8,6 +8,7 @@ import IndexPage from './pages/Index.js';
 import ContactPage from './pages/Contact.js';
 import DevisPage from './pages/Devis.js';
 import NettoyagePage from './pages/Nettoyage.js';
+import DebarrasPage from './pages/Debarras.js';
 import GravasPage from './pages/Gravas.js';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Route path="/devis" element={<DevisPage />} />
          
       <Route path="/nettoyage" element={<NettoyagePage />} />
+
+      <Route path="/debarras" element={<DebarrasPage />} />
          
       <Route path="/gravas" element={<GravasPage />} />
     </Routes>
