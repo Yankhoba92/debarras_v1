@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import logo from "../../../public/images/camion-2.png"
+import logo from "../assets/images/logo-blanc.png"
 
 const NavbarBurger = () => {
   return (
@@ -11,7 +11,7 @@ const NavbarBurger = () => {
                     <Link className='inline-block' to='#'>
                       <img
                         className='h-8'
-                        src='flex-ui-assets/logos/flex-ui-green.svg'
+                        src={logo}
                         alt=''
                       />
                     </Link>
@@ -55,7 +55,7 @@ const NavbarBurger = () => {
                           className='inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-400 hover:text-white bg-transparent font-medium text-center rounded-md'
                           to='/contact'
                         >
-                          Contact
+                          CONTACT
                         </Link>
                       </div>
                       <div className='w-full'>
