@@ -1,32 +1,34 @@
-# The Shuffle Editor (https://shuffle.dev)
+# Propositions (https://eco-debarras.com/)
 
-## 1. Getting Started
+## Démarrage
 
-The project's source files are placed in ./src/ directory. 
+Bienvenue sur le projet Eco-Débarras ! Suivez ces étapes simples pour commencer à utiliser notre application.
 
-* ./src/{framework}/ - settings used to build CSS.
-* ./src/pages/ - all your pages (templates) are stored in separate .js files.
+### Installation
 
-## 2. Installation
+1. Installez les dépendances nécessaires en exécutant la commande suivante dans votre terminal :
 
-```
-# Install dependencies
-npm install 
+    ```bash
+    npm install
+    ```
 
-# Run dev server with live preview
-npm run start
+2. Ensuite, installez npm-run-all en tant que dépendance de développement avec la commande suivante :
 
-# Create an optimized production build
-npm run build
-```
+    ```bash
+    npm install --save-dev npm-run-all
+    ```
 
-## 3. Contact
+    Cette étape est cruciale pour orchestrer facilement différentes tâches de développement.
 
-If you have found any bugs in the Shuffle Editor, have any questions, 
-comments or ideas for new features, feel free to contact us:
+3. Enfin, pour démarrer le serveur, exécutez la commande suivante :
 
-support@shuffle.dev
+    ```bash
+    npm start
+    ```
 
-## 4. Credits & Special thanks
+    Cela lancera l'application et la rendra accessible pour que vous puissiez commencer à explorer Eco-Débarras.
+## Remarque
 
-We use placeholders from https://unsplash.com/
+Veuillez noter que le site n'est pas entièrement finalisé en raison de contraintes de temps. Cependant, il offre déjà un aperçu de nos idées et de ce que nous avons réalisé jusqu'à présent.
+
+N'hésitez pas à explorer mon site et à me faire part de vos retours !
