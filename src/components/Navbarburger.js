@@ -7,7 +7,7 @@ const NavbarBurger = () => {
     <div className='navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50'>
               <div className='fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-coolGray-900'>
                 <nav className='relative p-6 h-full overflow-y-auto'>
-                  <div className='flex flex-col justify-between h-full'>
+                  <div className='flex flex-col justify-arround h-full'>
                     <Link className='inline-block' to='#'>
                       <img
                         className='h-8'
