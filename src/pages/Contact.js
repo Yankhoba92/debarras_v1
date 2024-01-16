@@ -46,9 +46,7 @@ export default function Contact() {
             <div className='container px-4 mx-auto'>
               <div className='flex flex-wrap mb-24 lg:mb-18 justify-between items-center'>
                 <div className='w-full lg:w-1/2 mb-10 lg:mb-0'>
-                  <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-green-900 bg-green-100 font-medium uppercase rounded-9xl'>
-                    Contact
-                  </span>
+                  
                   <h3 className='mb-4 text-4xl md:text-5xl text-white font-bold tracking-tighter leading-tight'>
                     CONTACTEZ-NOUS
                   </h3>

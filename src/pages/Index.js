@@ -35,9 +35,7 @@ export default function Index() {
             <div className='container px-4 mx-auto'>
               <div className='flex flex-wrap xl:items-center -mx-4'>
                 <div className='w-full md:w-1/2 px-4 mb-16 md:mb-0'>
-                  <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-green-500 uppercase rounded-9xl'>
-                    Header
-                  </span>
+                  
                   <h1 className='mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight text-white font-bold tracking-tight'>
                     Eco Débarras: L'expertise d'un leader en débarras au cœur de
                     en IDF
@@ -131,9 +129,7 @@ export default function Index() {
           >
             <div className='container px-4 mx-auto'>
               <div className='md:max-w-4xl mb-16 md:mb-20'>
-                <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-green-900 bg-green-100 font-medium uppercase rounded-full shadow-sm'>
-                  Features
-                </span>
+                
                 <h1 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-bold tracking-tighter'>
                   Un service adapté à la diversité des besoin
                 </h1>
