@@ -22,24 +22,24 @@ const Error = () => {
                     En maintenance
                   </h2>
                   <p className="mb-6 text-lg md:text-xl text-coolGray-500">
-                    SOON
+                  Nous tenons à présenter nos plus sincères excuses pour tout inconvénient que cela aurait pu causer.
                   </p>
                   <div className="flex flex-wrap">
                     <div className="w-full lg:w-auto py-1 lg:py-0 lg:mr-6">
-                      <a
+                      <Link
                         className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm"
-                        href="index.html"
+                        to="/devis"
                       >
-                        Go back to Homepage
-                      </a>
+                        DEVIS GRATUIT
+                      </Link>
                     </div>
                     <div className="w-full lg:w-auto py-1 lg:py-0">
-                      <a
+                      <Link
                         className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-800 font-medium text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-coolGray-200 focus:ring-opacity-50 border border-coolGray-200 rounded-md shadow-sm"
-                        href="#"
+                        to="/"
                       >
-                        Try Again
-                      </a>
+                        ACCUEIL
+                      </Link>
                     </div>
                   </div>
                 </div>
