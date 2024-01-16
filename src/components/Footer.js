@@ -27,7 +27,7 @@ const Footer = () => {
             <div className='container px-4 mx-auto'>
               <div className='flex flex-wrap lg:items-center pt-24 pb-12 -mx-4'>
                 <div className='w-full md:w-1/4 lg:w-auto px-4'>
-                  <Link className='block mb-5 md:mb-0 max-w-max' href='#'>
+                  <Link className='block mb-5 md:mb-0 max-w-max' to='#'>
                     <img
                       className='h-8'
                       src='images/logo-blanc-300x37.webp'
@@ -40,7 +40,7 @@ const Footer = () => {
                     <div className='w-full md:w-auto p-3 md:py-0 md:px-6'>
                       <Link
                         className='inline-block text-lg md:text-xl text-coolGray-400 hover:text-coolGray-500 font-medium'
-                        href='#'
+                        to='#'
                       >
                         À propos
                       </Link>
@@ -49,7 +49,7 @@ const Footer = () => {
                     <div className='w-full md:w-auto p-3 md:py-0 md:px-6'>
                       <Link
                         className='inline-block text-lg md:text-xl text-coolGray-400 hover:text-coolGray-500 font-medium'
-                        href='#'
+                        to='#'
                       >
                         {' '}
                         Nos interventions:
@@ -58,7 +58,7 @@ const Footer = () => {
                     <div className='w-full md:w-auto p-3 md:py-0 md:px-6'>
                       <Link
                         className='inline-block text-lg md:text-xl text-coolGray-400 hover:text-coolGray-500 font-medium'
-                        href='#'
+                        to='#'
                       >
                         Lieux d'interventions
                       </Link>
@@ -66,7 +66,7 @@ const Footer = () => {
                     <div className='w-full md:w-auto p-3 md:py-0 md:px-6'>
                       <Link
                         className='inline-block text-lg md:text-xl text-coolGray-400 hover:text-coolGray-500 font-medium'
-                        href='#'
+                        to='/contact'
                       >
                         CONTACTEZ-NOUS
                       </Link>
@@ -90,7 +90,7 @@ const Footer = () => {
                     <div className='px-5'>
                       <Link
                         className='inline-block text-coolGray-300 hover:text-coolGray-400'
-                        href='#'
+                        to='#'
                       >
                         <svg
                           width={10}
@@ -111,7 +111,7 @@ const Footer = () => {
                     <div className='px-5'>
                       <Link
                         className='inline-block text-coolGray-300 hover:text-coolGray-400'
-                        href='#'
+                        to='#'
                       >
                         <svg
                           width={19}
@@ -132,7 +132,7 @@ const Footer = () => {
                     <div className='px-5'>
                       <Link
                         className='inline-block text-coolGray-300 hover:text-coolGray-400'
-                        href='#'
+                        to='#'
                       >
                         <svg
                           width={20}
@@ -153,7 +153,7 @@ const Footer = () => {
                     <div className='px-5'>
                       <Link
                         className='inline-block text-coolGray-300 hover:text-coolGray-400'
-                        href='#'
+                        to='#'
                       >
                         <svg
                           width={18}
@@ -172,7 +172,7 @@ const Footer = () => {
                     <div className='px-5'>
                       <Link
                         className='inline-block text-coolGray-300 hover:text-coolGray-400'
-                        href='#'
+                        to='#'
                       >
                         <svg
                           width={18}
