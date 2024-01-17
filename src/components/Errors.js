@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dogError from "../assets/flex-ui-assets/images/http-codes/dog-error-big.png"
+import waveYettow from "../assets/flex-ui-assets/elements/wave2-yellow.svg"
+import wavevVolet from "../assets/flex-ui-assets/elements/dots1-violet.svg"
 
 const Error = () => {
   return (
@@ -58,12 +60,12 @@ const Error = () => {
           />
           <img
             className="absolute top-0 left-0 w-24 md:w-auto"
-            src="flex-ui-assets/elements/wave2-yellow.svg"
+            src={waveYettow}
             alt=""
           />
           <img
             className="absolute bottom-6 left-6 w-24 md:w-auto"
-            src="flex-ui-assets/elements/dots3-violet.svg"
+            src={wavevVolet}
             alt=""
           />
         </section>
