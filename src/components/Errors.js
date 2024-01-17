@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import logo from "../../../public/images/camion-2.png"
+import dogError from "../assets/flex-ui-assets/images/http-codes/dog-error-big.png"
 
 const Error = () => {
   return (
@@ -48,12 +48,12 @@ const Error = () => {
           </div>
           <img
             className="md:hidden w-full"
-            src="flex-ui-assets/images/http-codes/dog-error-side.png"
+            src={dogError}
             alt=""
           />
           <img
             className="absolute top-0 right-0 hidden md:block h-full w-2/5 md:object-cover"
-            src="flex-ui-assets/images/http-codes/dog-error-side.png"
+            src={dogError}
             alt=""
           />
           <img
