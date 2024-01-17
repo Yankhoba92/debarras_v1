@@ -2,9 +2,10 @@ import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Navbar from '../components/Navbar';
 import NavbarBurger from '../components/Navbarburger';
+import Footer from '../components/Footer';
 
 const meta = {
-  title: '',
+  title: 'Devis',
   meta: [],
   link: [],
   style: [],
@@ -150,6 +151,7 @@ export default function Devis() {
             </div>
           </div>
         </section>
+        <Footer/>
       </>
     </React.Fragment>
   );

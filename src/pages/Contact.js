@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Navbar from '../components/Navbar';
 import NavbarBurger from '../components/Navbarburger';
+import Footer from '../components/Footer';
 
 const meta = {
   title: '',
@@ -305,6 +306,7 @@ export default function Contact() {
             </svg>
           </div>
         </section>
+        <Footer/>
       </>
     </React.Fragment>
   );

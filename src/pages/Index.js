@@ -5,7 +5,7 @@ import NavbarBurger from '../components/Navbarburger';
 import Footer from '../components/Footer';
 
 const meta = {
-  title: '',
+  title: 'Accueil',
   meta: [],
   link: [],
   style: [],

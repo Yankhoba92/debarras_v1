@@ -3,9 +3,10 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Navbar from '../components/Navbar';
 import NavbarBurger from '../components/Navbarburger';
 import Error from '../components/Errors';
+import Footer from '../components/Footer';
 
 const meta = {
-  title: '',
+  title: 'Nettoyage',
   meta: [],
   link: [],
   style: [],
@@ -24,6 +25,7 @@ export default function Nettoyage() {
         <NavbarBurger/>
         </section>
         <Error/>
+      <Footer/> 
       </>
     </React.Fragment>
   );
